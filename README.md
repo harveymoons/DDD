@@ -5,6 +5,7 @@
 - [Aggregate](#aggregate)
 - [Repository](#repository)
 - [Domain Service](#domain-service)
+- [InnerClass] (#inner-class)
   
 ## Domain Model
 ## Entity
@@ -12,6 +13,7 @@
 ## Aggregate
 ## Repository
 ## Domain Service
+## Inner Class
 ## [Ref.]
   - https://jhkang-tech.tistory.com/48
   - https://javacan.tistory.com/entry/what-is-a-domain-model
