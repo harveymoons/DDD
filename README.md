@@ -5,7 +5,7 @@
 - [Aggregate](#aggregate)
 - [Repository](#repository)
 - [Domain Service](#domain-service)
-- [InnerClass] (#inner-class)
+- [Inner Class](#inner-class)
   
 ## Domain Model
 ## Entity
