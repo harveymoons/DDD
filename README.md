@@ -1,5 +1,6 @@
 # DDD (Domain Driven Design)
-- [Domain Model](#domain-model)
+
+- [Domain](#domain)
 - [Entity](#entity)
 - [Value](#value)
 - [Aggregate](#aggregate)
@@ -7,7 +8,15 @@
 - [Domain Service](#domain-service)
 - [Inner Class](#inner-class)
   
-## Domain Model
+## Domain
+- 구현해야 할 소프트웨어 대상
+- 소프트웨어로 해결해결하고자 하는 문제 영역
+- `하나의 도메인`은 다쉬 `하위 도메인`으로 나눌 수 있다
+  
+###### Domain Model
+- 특정 도메인을 개념적으로 표현한 것 `(ex: as Object, as Diagram)`
+- 도메인 모델을 사용하면 여러 관계자들이 도일한 모습으로  도메인을 이해하고 도메인 지식을 공유하는 데 도움이 된다
+  
 ## Entity
 ## Value
 ## Aggregate
