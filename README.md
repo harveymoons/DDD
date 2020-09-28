@@ -30,6 +30,7 @@
 - 식별자 : 엔티티 객체마다 고유의 식별자를 갖는다
 ```java
 public class Order {
+  // 상품을 주문할 때 사용하는 주문번호는 서로 중복될 수 없는 고유한 값이여야 한다
   private String orderNumber;
 }
 ```
