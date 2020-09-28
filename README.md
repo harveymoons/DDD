@@ -1,8 +1,7 @@
 # DDD (Domain Driven Design)
 
 - [Domain](#domain)
-- [Entity](#entity)
-- [Value](#value)
+- [Architecture](#architecture)
 - [Aggregate](#aggregate)
 - [Repository](#repository)
 - [Domain Service](#domain-service)
@@ -72,8 +71,14 @@ pulibc Class Money {
 }
 ```
   
-## Entity
-## Value
+## Architecture
+- 계층 구조 : 표현 > 응용 > 도메인 > 인프라스트럭처
+- 고수준 모듈 : 의미 있는 단일 기능을 제공하는 모듈 `ex) 응용, 도메인 영역`
+- 저수준 모듈 : 하위 기능을 실제로 구현한 것 `ex) 인프라스트럭처`
+- DIP(Dependency Inversion Principle) 의존 역전 원칙 : 저수준 모듈이 고수준 모듈을 의존
+  
+  
+  
 ## Aggregate
 ## Repository
 ## Domain Service
